@@ -62,9 +62,12 @@ document.write('<img src="'+theImages[whichImage]+'" height="350">');
 </div>  
 <div id="navigation">
   <ul>
-    <li><a href="index.html" >Monreal Lab home</a></li>
-    <li><a href="waet.html" class="current">WAET</a></li>
-    <li><a href="waet_2020.html">Astro2020</a></li>
+  <li><a href="index.html" >Home</a></li>
+    <li><a href="people.html">People</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="pub.html">Publications</a></li>
+    <li><a href="waet.html" class="current">Exoplanets</a></li></li>
+    <li><a href="saltcaverns.html">Salt Caverns</a></li></li>
   </ul>
 </div>
 <div id="links">  <h1>Links</h1>
@@ -88,21 +91,30 @@ document.write('<img src="'+theImages[whichImage]+'" height="350">');
     </div>
 </div>
 <div id="mainContent">  <p>
-<img src=hWAET_image.jpg>
 <h1>Wide Aperture Exoplanet Telescope</h1>
-  The Wide Aperture Exoplanet Telescope (WAET) is a proposed ground-based telescope design concept with an extremely asymmetric filled aperture.  We are designing WAET-based telescopes for possible construction in the 2020s.  New collaborators are eagerly invited to contribute!
-  <ul>
-    <li>Read our <a href=waet_2020.html>Astro2020 Decadal Survey whitepaper</a>
+  The Wide Aperture Exoplanet Telescope (WAET) is a proposed ground-based telescope design concept with an extremely asymmetric filled aperture.  We are designing WAET-based telescopes for possible construction in the 2020s.  New collaborators are eagerly invited to contribute!  
 
-    <li>See our <a href=https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-4/issue-2/024001/Wide-Aperture-Exoplanet-Telescope--a-low-cost-flat-configuration/10.1117/1.JATIS.4.2.024001.full>paper in JATIS</a> (<a href=WAET/1801.00822.pdf>preprint PDF</a>, <a href=https://arxiv.org/abs/1801.00822>preprint link</a>)
-    <li>Abstract:
+<h2>Astro2020 whitepaper</h2>
+  <b><a href=astro2020_waet_whitepaper.pdf>WAET: low-cost ground based telescopes for accelerated exoplanet direct imaging</a></b> The Wide Aperture Exoplanet Telescope (WAET) is a new ground-based optical telescope layout with an extremely asymmetric aperture, which results in new exoplanet imaging reach at very low cost. We suggest that hWAET, a 100x2m telescope, can be built for $150M in the 2020s, and >300m versions merit further R\&D.  (Authors: BM,  Dominic Oddo, Christian Rodriguez)
+ <img src="EXOSIMS_observability.png" alt="Scatter plot (contrast vs. separation) of simulated planets showing different telescopes' discovery ranges"><br>
+  Simulated exoplanet populations and their observability by 8m and 30m telescopes, using the contrast specs of the TMT PSI and a 5 lambda/D cutoff, and extrapolations to 100m and 300m.   For full details, see whitepaper.
+  
+  <br>
+  <img src="hWAET_image.jpg" alt="isometric drawing of a hWAET installation"><br>
+  Isometric drawing of a 100m x 2m WAET telescope, showing the siderostat (lower left), the primary (upper right), and a wind baffle stretched above and below the beam path.
+
+  <h2> JATIS paper</h2>
+    <a href=https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-4/issue-2/024001/Wide-Aperture-Exoplanet-Telescope--a-low-cost-flat-configuration/10.1117/1.JATIS.4.2.024001.full>Wide Aperture Exoplanet Telescope: a low-cost flat configuration for a 100+ meter ground based telescope</a> (<a href=WAET/1801.00822.pdf>preprint PDF</a>, <a href=https://arxiv.org/abs/1801.00822>preprint link</a>)
     <blockquote>
-    There is a strong science case for building ground-based optical telescopes larger than the 30m ones now under construction. Some topics, like high-redshift galaxies studies, particularly require larger collecting areas; others, like reflected-light exoplanet detection, benefit from sharp angular resolution even with limited area. A filled aperture telescope with 100 m-class diffraction limits would give us access to routine reflected-light exoplanet characterization for a large number of systems. Unfortunately, in the context of observed telescope size/cost scaling laws, which suggest that construction costs increase as D<sup>2.7-2.5</sup> or A<sup>1.35-1.25</sup>, 100 m circular aperture telescopes are unaffordable. They require a vast amount of glass (with costs scaling as A) and a huge mount and dome (with costs scaling as A<sup>~3/2</sup>) in order to improve the diffraction limit by sqrt(A).
+  Abstract: There is a strong science case for building ground-based optical telescopes larger than the 30m ones now under construction. Some topics, like high-redshift galaxies studies, particularly require larger collecting areas; others, like reflected-light exoplanet detection, benefit from sharp angular resolution even with limited area. A filled aperture telescope with 100 m-class diffraction limits would give us access to routine reflected-light exoplanet characterization for a large number of systems. Unfortunately, in the context of observed telescope size/cost scaling laws, which suggest that construction costs increase as D<sup>2.7-2.5</sup> or A<sup>1.35-1.25</sup>, 100 m circular aperture telescopes are unaffordable. They require a vast amount of glass (with costs scaling as A) and a huge mount and dome (with costs scaling as A<sup>~3/2</sup>) in order to improve the diffraction limit by sqrt(A).
     In this paper, we show a telescope layout with a different scaling law. We implement a highly elongated pupil, with one long dimension L and one short dimension W, which we refer to as WAET (Wide Aperture Exoplanet Telescope). The total mirror area scales as ∼2.4A, but the mount/superstructure/dome are extremely simplified, offering costs scaling as A1.0 or slower. We will introduce the general features of the WAET geometry, which may have many different possible implementations. For concreteness, we will show mechanical and optical design exercises for one implementation (hectometer-WAET or “hWAET” at 100 m × 2 m) which we argue is a low-risk route towards ground-based direct imaging of rocky exoplanets; and for a much larger instrument (“kWAET” at 300 m × 5 m) with post-TMT-class light collection and sub-milliarcsecond resolution.
 </blockquote>
-<li><a href=WAET/noao_ds2020.pdf>slides from NOAO talk</a>
+<h2>Other documents</h2>
+<ul>
+  <li><a href=WAET/noao_ds2020.pdf>slides from NOAO talk</a>
+  <li>Dominic Oddo senior thesis</li>
+  </ul>
 
-</ul>
   
 
 </div>
