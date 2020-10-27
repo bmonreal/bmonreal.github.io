@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 3655086, 2018-10-14T20:56:42-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: MetallophileSp8-Medium by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/metallophile-sp8/medium/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 10,000,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3655086
+ * 
+ * © 2018 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/37c5ae");
+@font-face {
+  font-family: 'MetallophileSp8-Medium';
+  src: url("../webfonts/37C5AE_0_0.eot");
+  src: url("../webfonts/37C5AE_0_0.eot?#iefix") format("embedded-opentype"), url("../webfonts/37C5AE_0_0.woff2") format("woff2"), url("../webfonts/37C5AE_0_0.woff") format("woff"), url("../webfonts/37C5AE_0_0.ttf") format("truetype"); }
+
+body {
+  background-color: lightgray; }
+
+@media print {
+  body, .overall-layout-body, .puzzle-container {
+    display: block; } }
+
+.puzzle-container {
+  margin: 30px auto;
+  padding: 30px 60px;
+  background-color: white;
+  box-sizing: border-box;
+  width: 1020px;
+  font-size: 22px;
+  -moz-box-shadow: 0 0 10px black;
+  -webkit-box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black; }
+  @media print {
+    .puzzle-container {
+      /* Nothing constrains the .puzzle width for print media, but it should render
+       exactly as it does on screen. So just manually set .puzzle-container to
+       the actual width of .puzzle on screen.
+       This has the effect that the header is potentially slightly narrower that
+       usual, but ensures that .puzzle gets the full page width */
+      width: 920px;
+      border: 0px;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; } }
+  .puzzle-container span.problem-badge img.problem-badge-image {
+    height: 22px;
+    vertical-align: text-top; }
+
+.puzzle-header {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row; }
+
+.puzzle-header .header-textual-data .town-name img {
+  max-width: 400px;
+  max-height: 150px; }
+
+@media print {
+  .puzzle-header .header-anchor-graphic {
+    display: none; }
+  .puzzle-header .header-textual-data .town-name {
+    display: none; } }
+
+.name-container {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.name-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
+.theme-text {
+  margin: 5px 10px 10px 10px;
+  font-size: 13px;
+  font-style: italic; }
+
+.title-text {
+  font-size: 60px;
+  font-family: 'MetallophileSp8-Medium';
+  line-height: 0.9; }
+
+.puzzle {
+  width: auto;
+  flex-grow: 1; }
+  @media print {
+    .puzzle {
+      margin-top: 10px;
+      padding: 0; } }
+
+.solution.last {
+  margin-bottom: 44px; }
+
+#byline {
+  margin: 44px 0 0 0;
+  font-family: 'MetallophileSp8-Medium';
+  font-size: 26px; }
+
+.flavor {
+  font-style: italic;
+  margin: 44px 0; }
+
+.call-to-action {
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.puzzle-reward-solution-label, .puzzle-solution {
+  font-family: 'MetallophileSp8-Medium';
+  font-size: 26px; }
+  .puzzle-reward-solution-label a, .puzzle-solution a {
+    text-decoration: none;
+    color: black; }
+
+.puzzle-solution.spaced {
+  letter-spacing: 0.05em; }
